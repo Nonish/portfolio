@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "Pickzon Social App",
     desc: "Responsive Website with CMS page feature and web login for use as web application includes story ,chatting and posting create by ReactJs, Mui and NodeJs.",
-    img: "/pickzonLogin.png",
+    img: "./pickzonLogin.png",
     link: "https://www.pickzon.com/",
   },
   {
@@ -18,7 +18,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Admin Dashboard",
     desc: "Responsive Admin dashboard application for controlling & monitoring user interactions and manage app functionality using NextJs, Mui, Re-charts, React-hook-form.",
-    img: "/dashboard.png",
+    img: "./dashboard.png",
     link: "https://admin.pickzon.com/",
   },
   {
@@ -26,7 +26,7 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "Dating Website",
     desc: "Responsive dating website which Transform chats into relationships. Send and receive instant date requests to nearby restaurants and experiences create by ReactJs.",
-    img: "/luvHut.png",
+    img: "./luvHut.png",
     link: "https://theluvhut.com/",
   },
   {
@@ -34,7 +34,7 @@ const items = [
     color: "from-purple-300 to-red-300",
     title: "Blog Website",
     desc: "Blog website using dynamic routing through admin panel for fast reload and enrich in SEO created by NextJs.",
-    img: "/blogs.png",
+    img: "./blogs.png",
     link: "https://www.pickzon.com/blogs",
   },
 ];
