@@ -48,8 +48,7 @@ const Homepage = () => {
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-
-    return <motion.span className="inline">{displayText}</motion.span>;
+    return <motion.span className="inline h-9">{displayText}</motion.span>;
   }
 
   return (
@@ -62,10 +61,10 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative flex justify-center items-center">
-          <Image src="/myHeroColor.png" alt="" className="rounded-2xl  object-cover overflow-hidden" width={windowWidth > 375 ? 400 : 250} height={100} />
+          <Image src="/myHeroColor.png" alt="" className="rounded-2xl  object-cover overflow-hidden" width={windowWidth > 820 ? 400 : windowWidth >= 768 ? 300 : 200} height={100} />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-3  justify-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-2  justify-center">
           {/* TITLE */}
           <h3 className="text-2xl md:text-3xl font-semibold"> 👋 Hey there, I&apos;m </h3>
           <h1 className="text-5xl md:text-8xl font-bold">
@@ -75,7 +74,7 @@ const Homepage = () => {
           <h2 className="text-2xl md:text-3xl font-semibold h-9">
             <RedoAnimText delay={1} />
           </h2>
-          <p className="md:text-xl mb-5">
+          <p className="md:text-xl mb-2">
             {/* Welcome to my digital canvas, where innovation and creativity
             converge. With a keen eye for aesthetics and a mastery of code, my
             portfolio showcases a diverse collection of projects that reflect my
