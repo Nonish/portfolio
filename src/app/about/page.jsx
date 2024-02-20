@@ -81,14 +81,10 @@ const AboutPage = () => {
               mobile-friendly layouts using CSS frameworks like Sass or Tailwind
               CSS. */}
               🔧 Tech Stacks<br />
-              <b>MERN Stack</b> :<br />
-              Proficient in MongoDB, Express.js, React.js, and Node.js, with a focus on frontend development.<br />
-              <b>Next.js</b> :<br />
-              Experienced in building server-rendered React applications with Next.js, enabling enhanced performance and SEO optimization.<br />
-              <b>TypeScript</b> :<br />
-              Skilled in using TypeScript to bring type safety and enhanced developer experience to JavaScript projects.<br />
-              <b>Responsive Design</b> :<br />
-              Proficient in creating responsive and mobile-friendly layouts using CSS frameworks like Sass or Tailwind CSS.
+              <b>MERN Stack</b> :Proficient in MongoDB, Express.js, React.js, and Node.js, with a focus on frontend development.<br />
+              <b>Next.js</b> :Experienced in building server-rendered React applications with Next.js, enabling enhanced performance and SEO optimization.<br />
+              <b>TypeScript</b> :Skilled in using TypeScript to bring type safety and enhanced developer experience to JavaScript projects.<br />
+              <b>Responsive Design</b> :Proficient in creating responsive and mobile-friendly layouts using CSS frameworks like Sass or Tailwind CSS.
             </p>
             <p className="text-lg text-justify">
               🤝 I am passionate about creating innovative solutions and collaborating with cross-functional teams to deliver exceptional results. I am seeking new opportunities to further enhance my skills and contribute to exciting projects. Let&apos;s connect and discuss how I can add value to your team.
