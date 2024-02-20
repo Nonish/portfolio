@@ -44,15 +44,17 @@ const AboutPage = () => {
             </h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg text-justify">
-              👋Welcome to my portfolio! I&apos;m a dedicated Frontend Developer
+              {/* 👋Welcome to my portfolio! I&apos;m a dedicated Frontend Developer
               from India 🇮🇳 with three years of experience specializing in the
               MERN stack, with a strong emphasis on React.js and Javascript. I
               love to programming and am interested in create, build, maintain
               and collaborate to MERN stacks project to optimized and enhanced
-              user experience.
+              user experience. */}
+              👋 Hello there... ,<br />
+              🧑‍💻  As a skilled MERN stack developer with 3 years of experience, I have a proven track record of creating robust and scalable web applications. My expertise lies in building full-stack applications using MongoDB, Express, React.js, and Node.js. I am proficient in front-end technologies such as HTML, CSS, and JavaScript and maintaining web applications with responsive design and cross browser compatibility for better user-experience which also boosted SEO for websites & blog&apos;s page for enrich user traffic. And also helpful in backend technologies including RESTful APIs and database management.
             </p>
             <p className="text-lg text-justify">
-              🚀 Throughout my career, I&apos;ve had the opportunity to work on
+              {/* 🚀 Throughout my career, I&apos;ve had the opportunity to work on
               a variety of projects, ranging from small-scale web applications
               to enterprise-level solutions. My expertise lies in crafting
               elegant and performant user interfaces that not only meet but
@@ -60,10 +62,11 @@ const AboutPage = () => {
               maintaining web applications with responsive design and cross
               browser compatibility for better user-experience which also
               boosted SEO for websites & blog&apos;s page for enrich user
-              traffic.
+              traffic. */}
+              🌱 I have a strong understanding of software development best practices and a keen eye for detail, allowing me to deliver high-quality code that meets client requirements. I am constantly learning and adapting to new technologies to stay ahead in this fast-paced industry. I&apos;ve had the opportunity to work on a variety of projects, ranging from small-scale web applications to enterprise-level solutions. My expertise lies in crafting elegant and performant user interfaces that not only meet but exceed user expectations.
             </p>
             <p className="text-lg text-justify">
-              🔧 My technical skill set includes: <br />
+              {/* 🔧 My technical skill set includes: <br />
               <b>MERN Stack:</b>Proficient in MongoDB, Express.js, React.js, and
               Node.js, with a focus on frontend development.
               <br />
@@ -76,24 +79,29 @@ const AboutPage = () => {
               <br />
               <b>Responsive Design: </b>Proficient in creating responsive and
               mobile-friendly layouts using CSS frameworks like Sass or Tailwind
-              CSS.
+              CSS. */}
+              🔧 Tech Stacks<br />
+              <b>MERN Stack</b> :<br />
+              Proficient in MongoDB, Express.js, React.js, and Node.js, with a focus on frontend development.
+              <b>Next.js</b> :<br />
+              Experienced in building server-rendered React applications with Next.js, enabling enhanced performance and SEO optimization.
+              <b>TypeScript</b> :<br />
+              Skilled in using TypeScript to bring type safety and enhanced developer experience to JavaScript projects.
+              <b>Responsive Design</b> :<br />
+              Proficient in creating responsive and mobile-friendly layouts using CSS frameworks like Sass or Tailwind CSS.
             </p>
             <p className="text-lg text-justify">
-              🌱 I&apos;m deeply passionate about staying updated with the
-              latest advancements in frontend development and am always eager to
-              expand my skill set. Whether it&apos;s mastering new frameworks,
-              exploring design patterns, or diving into accessibility best
-              practices, I&apos;m committed to continuous learning and growth.
+              🤝 I am passionate about creating innovative solutions and collaborating with cross-functional teams to deliver exceptional results. I am seeking new opportunities to further enhance my skills and contribute to exciting projects. Let&apos;s connect and discuss how I can add value to your team.
             </p>
-            <p className="text-lg text-justify">
+            {/* <p className="text-lg text-justify">
               🤝I&apos;m currently seeking new opportunities where I can
               contribute my expertise in frontend development and collaborate
               with talented teams to build innovative solutions. If you&apos;re
               looking for a frontend engineer who is passionate about crafting
               delightful user experiences, let&apos;s connect!
-            </p>
+            </p> */}
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">Happy Hacking !!!.</span>
+            <span className="italic">Happy Coding !!!.</span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
               <svg
