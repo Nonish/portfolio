@@ -51,6 +51,17 @@ const Homepage = () => {
     return <motion.span className="inline h-9">{displayText}</motion.span>;
   }
 
+
+  // const onHandleDownload = () => {
+  //   const pdfUrl = "https://nonish.github.io/resume/";
+  //   const link = document.createElement("a");
+  //   link.href = pdfUrl;
+  //   link.download = "Nonish_Jain_Resume.pdf"; // specify the filename
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
+
   return (
     <motion.div
       className="h-full"
@@ -84,7 +95,9 @@ const Homepage = () => {
           {/* BUTTONS */}
           <div className="w-full flex gap-6">
             <a href="https://nonish.github.io/resume/" target="_blank" download>
-              <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+              <button
+                // onClick={onHandleDownload}
+                className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
                 My Resume
               </button>
             </a>
