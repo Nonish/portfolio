@@ -51,7 +51,16 @@ const AboutPage = () => {
               and collaborate to MERN stacks project to optimized and enhanced
               user experience. */}
               👋 Hello there... ,<br />
-              🧑‍💻  As a skilled MERN stack developer with 3 years of experience, I have a proven track record of creating robust and scalable web applications. My expertise lies in building full-stack applications using MongoDB, Express, React.js, and Node.js. I am proficient in front-end technologies such as HTML, CSS, and JavaScript and maintaining web applications with responsive design and cross browser compatibility for better user-experience which also boosted SEO for websites & blog&apos;s page for enrich user traffic. And also helpful in backend technologies including RESTful APIs and database management.
+              🧑‍💻 As a skilled MERN stack developer with 2.5 years of experience, I
+              have a proven track record of creating robust and scalable web
+              applications. My expertise lies in building full-stack
+              applications using MongoDB, Express, React.js, and Node.js. I am
+              proficient in front-end technologies such as HTML, CSS, and
+              JavaScript and maintaining web applications with responsive design
+              and cross browser compatibility for better user-experience which
+              also boosted SEO for websites & blog&apos;s page for enrich user
+              traffic. And also helpful in backend technologies including
+              RESTful APIs and database management.
             </p>
             <p className="text-lg text-justify">
               {/* 🚀 Throughout my career, I&apos;ve had the opportunity to work on
@@ -63,7 +72,15 @@ const AboutPage = () => {
               browser compatibility for better user-experience which also
               boosted SEO for websites & blog&apos;s page for enrich user
               traffic. */}
-              🌱 I have a strong understanding of software development best practices and a keen eye for detail, allowing me to deliver high-quality code that meets client requirements. I am constantly learning and adapting to new technologies to stay ahead in this fast-paced industry. I&apos;ve had the opportunity to work on a variety of projects, ranging from small-scale web applications to enterprise-level solutions. My expertise lies in crafting elegant and performant user interfaces that not only meet but exceed user expectations.
+              🌱 I have a strong understanding of software development best
+              practices and a keen eye for detail, allowing me to deliver
+              high-quality code that meets client requirements. I am constantly
+              learning and adapting to new technologies to stay ahead in this
+              fast-paced industry. I&apos;ve had the opportunity to work on a
+              variety of projects, ranging from small-scale web applications to
+              enterprise-level solutions. My expertise lies in crafting elegant
+              and performant user interfaces that not only meet but exceed user
+              expectations.
             </p>
             <p className="text-lg text-justify">
               {/* 🔧 My technical skill set includes: <br />
@@ -80,14 +97,28 @@ const AboutPage = () => {
               <b>Responsive Design: </b>Proficient in creating responsive and
               mobile-friendly layouts using CSS frameworks like Sass or Tailwind
               CSS. */}
-              🔧 Tech Stacks<br />
-              <b>MERN Stack</b> :Proficient in MongoDB, Express.js, React.js, and Node.js, with a focus on frontend development.<br />
-              <b>Next.js</b> :Experienced in building server-rendered React applications with Next.js, enabling enhanced performance and SEO optimization.<br />
-              <b>TypeScript</b> :Skilled in using TypeScript to bring type safety and enhanced developer experience to JavaScript projects.<br />
-              <b>Responsive Design</b> :Proficient in creating responsive and mobile-friendly layouts using CSS frameworks like Sass or Tailwind CSS.
+              🔧 Tech Stacks
+              <br />
+              <b>MERN Stack</b> :Proficient in MongoDB, Express.js, React.js,
+              and Node.js, with a focus on frontend development.
+              <br />
+              <b>Next.js</b> :Experienced in building server-rendered React
+              applications with Next.js, enabling enhanced performance and SEO
+              optimization.
+              <br />
+              <b>TypeScript</b> :Learning and using TypeScript to bring type
+              safety and enhanced developer experience to JavaScript projects.
+              <br />
+              <b>Responsive Design</b> :Proficient in creating responsive and
+              mobile-friendly layouts using CSS frameworks like Sass or Tailwind
+              CSS.
             </p>
             <p className="text-lg text-justify">
-              🤝 I am passionate about creating innovative solutions and collaborating with cross-functional teams to deliver exceptional results. I am seeking new opportunities to further enhance my skills and contribute to exciting projects. Let&apos;s connect and discuss how I can add value to your team.
+              🤝 I am passionate about creating innovative solutions and
+              collaborating with cross-functional teams to deliver exceptional
+              results. I am seeking new opportunities to further enhance my
+              skills and contribute to exciting projects. Let&apos;s connect and
+              discuss how I can add value to your team.
             </p>
             {/* <p className="text-lg text-justify">
               🤝I&apos;m currently seeking new opportunities where I can
@@ -347,13 +378,13 @@ const AboutPage = () => {
                 <div className="w-1/2">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Frontend Engineer
+                    MERN Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
                     Developing <b>Pickzon</b> web app social media platform from
                     scratch for posting, streaming, sharing & chatting on web
-                    using tech Next.Js, MUIv5, socket.io & Node.
+                    using tech React.Js, MUIv5, socket.io & Node.Js etc.
                   </div>
                   {/* JOB DATE */}
                   {/* JOB COMPANY */}
@@ -375,6 +406,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/2"></div>
               </div>
+
               {/* EXPERIENCE LIST ITEM */}
               <div className="flex justify-between h-48">
                 {/* LEFT */}
@@ -391,7 +423,7 @@ const AboutPage = () => {
                 <div className="w-1/2">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Web Developer
+                    Web Developer (Internship)
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -404,44 +436,10 @@ const AboutPage = () => {
                   <div className="p-2 rounded bg-white text-sm font-semibold w-fit flex items-center justify-center">
                     AAMPL
                     <div className="ml-1 text-red-400 text-sm font-semibold">
-                      2020 - 2021
+                      2021
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
-                {/* LEFT */}
-                <div className="w-1/3 ">
-                  {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
-                  </div>
-                  {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    Creating Admin dashboard for security guards shift
-                    management and online-live reporting on web using Typescript
-                    and React.
-                    <br />
-                    Client : Austec services (Australia)
-                  </div>
-                  <div className="p-2 rounded bg-white text-sm font-semibold w-fit flex items-center justify-center">
-                    Austec
-                    <div className="ml-1 text-red-400 text-sm font-semibold">
-                      2022 - 2023{" "}
-                    </div>
-                  </div>
-                </div>
-                {/* CENTER */}
-                <div className="w-1/6 flex justify-center">
-                  {/* LINE */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
-                  </div>
-                </div>
-                {/* RIGHT */}
-                <div className="w-1/3 "></div>
               </div>
             </motion.div>
           </div>
@@ -456,3 +454,38 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
+//  {/* EXPERIENCE LIST ITEM */}
+//  <div className="flex justify-between h-48">
+//  {/* LEFT */}
+//  <div className="w-1/3 ">
+//    {/* JOB TITLE */}
+//    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+//      Freelancer{" "}
+//    </div>
+//    {/* JOB DESC */}
+//    <div className="p-3 text-sm italic">
+//      Creating Admin dashboard for security guards shift
+//      management and online-live reporting on web using Typescript
+//      and React.
+//      <br />
+//      Client : Austec services (Australia)
+//    </div>
+//    <div className="p-2 rounded bg-white text-sm font-semibold w-fit flex items-center justify-center">
+//      Austec
+//      <div className="ml-1 text-red-400 text-sm font-semibold">
+//        2022 - 2023{" "}
+//      </div>
+//    </div>
+//  </div>
+//  {/* CENTER */}
+//  <div className="w-1/6 flex justify-center">
+//    {/* LINE */}
+//    <div className="w-1 h-full bg-gray-600 rounded relative">
+//      {/* LINE CIRCLE */}
+//      <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+//    </div>
+//  </div>
+//  {/* RIGHT */}
+//  <div className="w-1/3 "></div>
+// </div>
