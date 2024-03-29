@@ -10,12 +10,11 @@ const Homepage = () => {
   function RedoAnimText({ delay }) {
     const textIndex = useMotionValue(0);
     const texts = [
-      "MERN Developer 👨‍💻",
+      "Frontend Engineer 👨‍💻",
       "UI Designer 🎨",
-      // "Front end Engineer 👨‍🔧",
       "Problem Solver 🧮",
+      "Tech Enthusiast 🤖",
       "Quick Learner ⚡",
-      "Tech Blogger 📹",
       "Gamer 🎮",
     ];
 
@@ -91,7 +90,7 @@ const Homepage = () => {
             converge. With a keen eye for aesthetics and a mastery of code, my
             portfolio showcases a diverse collection of projects that reflect my
             commitment to excellence. */}
-            I&apos;m a MERN stack developer from India 🇮🇳. I love programming and am interested in create, build, maintain and collaborate to MERN stacks project to optimized and enhanced user experience. Do stop by and have a look at my portfolio please. 😀
+            I&apos;m a Frontend Engineer from India 🇮🇳. I love programming and am interested in create, build, maintain and collaborate to MERN stacks project to optimized and enhanced user experience. Do stop by and have a look at my portfolio please. 😀
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-6">

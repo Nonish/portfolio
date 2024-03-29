@@ -51,7 +51,7 @@ const AboutPage = () => {
               and collaborate to MERN stacks project to optimized and enhanced
               user experience. */}
               👋 Hello there... ,<br />
-              🧑‍💻 As a skilled MERN stack developer with 2.5 years of experience, I
+              🧑‍💻 As a skilled Frontend Engineer with 2.5 years of experience, I
               have a proven track record of creating robust and scalable web
               applications. My expertise lies in building full-stack
               applications using MongoDB, Express, React.js, and Node.js. I am
@@ -378,7 +378,7 @@ const AboutPage = () => {
                 <div className="w-1/2">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    MERN Developer
+                    Frontend Engineer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
