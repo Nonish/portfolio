@@ -86,10 +86,6 @@ const Homepage = () => {
             <RedoAnimText delay={1} />
           </h2>
           <p className="md:text-xl mb-2">
-            {/* Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence. */}
             I&apos;m a Frontend Engineer from India 🇮🇳. I love programming and am interested in create, build, maintain and collaborate to MERN stacks project to optimized and enhanced user experience. Do stop by and have a look at my portfolio please. 😀
           </p>
           {/* BUTTONS */}
