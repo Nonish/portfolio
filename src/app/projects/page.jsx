@@ -54,7 +54,7 @@ const items = [
     link: "https://www.pickzon.com/blogs",
   },
   {
-    id: 6,
+    id: 7,
     color: "from-pink-300 to-purple-300",
     title: "",
     desc: "",
