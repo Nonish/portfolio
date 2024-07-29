@@ -73,7 +73,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 relative flex justify-center items-center">
           <Image
             width={windowWidth > 820 ? 350 : windowWidth >= 768 ? 300 : 200} height={100}
-            src="/me-full.jpg"
+            src="/meFull.jpg"
             alt=""
             className="rounded-2xl object-cover overflow-hidden" />
         </div>
