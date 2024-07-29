@@ -18,7 +18,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Admin Dashboard",
     desc: "Responsive Admin dashboard application for controlling & monitoring user interactions and manage app functionality using NextJs, Mui, Re-charts, React-hook-form.",
-    img: "/dashboard.png",
+    img: "/adminpanel.png",
     link: "https://admin.pickzon.com/",
   },
   {
@@ -32,10 +32,34 @@ const items = [
   {
     id: 4,
     color: "from-purple-300 to-red-300",
+    title: "MERN Auth Project",
+    desc: "Using react-vite with redux-toolkit and node with jwt , bcrypt & nodemon.",
+    img: "/dashboard.png",
+    link: "https://github.com/Nonish/MERN-Auth-Project",
+  },
+  {
+    id: 5,
+    color: "from-red-300 to-pink-300",
+    title: "Nike Landing Page",
+    desc: "Responsive website landing page in ReactJS and TailwindCss.",
+    img: "/landingPage.png",
+    link: "https://nonish.github.io/nike-landing-page-tailwindCSS/",
+  },
+  {
+    id: 6,
+    color: "from-pink-300 to-purple-300",
     title: "Blog Website",
     desc: "Blog website using dynamic routing through admin panel for fast reload and enrich in SEO created by NextJs.",
     img: "/blogs.png",
     link: "https://www.pickzon.com/blogs",
+  },
+  {
+    id: 6,
+    color: "from-pink-300 to-purple-300",
+    title: "",
+    desc: "",
+    img: "",
+    link: "",
   },
 ];
 
@@ -64,18 +88,18 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-2 text-white">
+                <div className="flex flex-col gap-2 text-white text-center">
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[600px] lg:h-[450px] xl:w-[800px] xl:h-[520px]">
+                  {item.img.length && <div className="relative w-80 h-50 md:w-96 md:h-50 lg:w-[600px] lg:h-[350px] xl:w-[800px] xl:h-[420px] flex justify-center">
                     <Image src={item.img} alt="" fill className="object-contain" />
-                  </div>
+                  </div>}
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[800px]">
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-2 md:text-md lg:p-4 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">Redirect</button>
+                    <button className="p-1 text-sm md:p-1 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">Redirect</button>
                   </Link>
                 </div>
               </div>

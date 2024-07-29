@@ -26,12 +26,12 @@ const AboutPage = () => {
       {/* CONTAINER */}
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
         {/* TEXT CONTAINER */}
-        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
+        <div className="p-4 sm:p-8 md:p-10 lg:p-20 xl:px-40 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-4 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="/me.jpeg"
+              src="/myInsta.jpg"
               alt=""
               width={112}
               height={112}
@@ -51,7 +51,7 @@ const AboutPage = () => {
               and collaborate to MERN stacks project to optimized and enhanced
               user experience. */}
               👋 Hello there... ,<br />
-              🧑‍💻 As a skilled Frontend Engineer with 2.5 years of experience, I
+              🧑‍💻 As a skilled Frontend Engineer with 3 years of experience, I
               have a proven track record of creating robust and scalable web
               applications. My expertise lies in building full-stack
               applications using MongoDB, Express, React.js, and Node.js. I am
@@ -267,17 +267,17 @@ const AboutPage = () => {
               <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 MongoDB
               </div>
-              {/* <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                PostgreSQL
-              </div> */}
+              <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                HTML5
+              </div>
               <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Node.js
               </div>
-              {/* <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Nest.js
-              </div> */}
               <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Express.js
+                CSS3
+              </div>
+              <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Agora Stream
               </div>
               {/* <div className="rounded-xl py-1.5 px-4 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Spring Boot

@@ -58,7 +58,6 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            🇮🇳
           </div>
         </div>
         {/* FORM CONTAINER */}

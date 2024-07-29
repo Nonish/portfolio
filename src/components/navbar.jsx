@@ -90,6 +90,9 @@ const Navbar = () => {
       </div> */}
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/8">
+        <Link href="https://nonish.github.io/resume/" title="resume link">
+          <Image src="/resumeicon.png" alt="" width={24} height={24} />
+        </Link>
         <Link href="https://www.linkedin.com/in/nonish-jain-707397169">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
