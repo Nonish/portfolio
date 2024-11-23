@@ -10,8 +10,8 @@ const Homepage = () => {
   function RedoAnimText({ delay }) {
     const textIndex = useMotionValue(0);
     const texts = [
-      "Frontend Engineer 👨‍💻",
-      "UI Designer 🎨",
+      "Software Engineer 👨‍💻",
+      "UI Developer 🎨",
       "Problem Solver 🧮",
       "Quick Learner ⚡",
       "Tech Enthusiast 🤖",
